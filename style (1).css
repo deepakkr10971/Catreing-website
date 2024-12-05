@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,508;1,508&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+input, button{
+    font: inherit;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #fff;
+
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+    box-shadow: 5px 5px 5px #333;
+    padding: 18px 20px;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: #000;
+
+    letter-spacing: 4px;
+    padding: 10px;
+}
+
+
+.nav-bar a:hover{
+    background-color: rgba(128, 128, 128, 0.6);
+}
+
+.burger .text h1{
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    
+
+    font-size: 2.2rem;
+    letter-spacing: 4px;
+    opacity: 0.6;
+}
+
+#about{
+    padding: 3.5rem 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    width: 100%;
+    margin: 0 auto;
+}
+#about .img img {
+    width: 500px;
+    height: 600px;
+}
+
+#about .about-catering{
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+
+#about .about-catering h1{
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 2.2rem;
+    margin: 0 0 25px 0;
+}
+
+#about .about-catering .grey{
+    color: #656565;
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+}
+
+#about .about-catering .height{
+    line-height: 1.7;
+}
+
+
+
+
+#menu{
+    padding: 3rem 1rem;
+
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    line-height: 1.5;
+}
+
+#menu .menu-items h1{
+    text-align: center;
+    font-size: 2.1rem;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+#menu .menu-items h4{
+    margin: 15px 0;
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+#menu .menu-items p{
+    margin: 15px 0;
+    color: #757575;
+    font-size: 0.98rem;
+}
+
+#menu .menu-image img{
+    width: 450px;
+    height: 600px;
+}
+
+#contact {
+    padding: 3.5rem 0;
+    margin: 0 auto;
+
+    max-width: 1100px;
+
+    line-height: 1.5;
+}
+
+#contact h1{
+    font-size: 2.3rem;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin: 0 0 45px 0;
+}
+
+#contact p{
+    font-size: 12px;
+    margin: 15px 0;
+}
+
+#contact h4{
+    margin: 15px 0;
+    color: grey;
+}
+
+#contact form div{
+    width: 100%;
+    height: 45px;
+    margin: 25px 0;
+    border-radius: 10px;
+
+}
+
+#contact form div input{
+    width: 100%;
+    height: 100%;
+    padding: 15px 15px;
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+::placeholder{
+    font-size: 0.9rem;
+}
+
+#contact .btn{
+    width: 150px;
+    height: 40px;
+}
+
+#contact .btn:hover{
+    background-color: grey;
+}
+
+footer {
+
+    background-color: #cccccc;
+    padding: 2.4rem;
+    text-align: center;
+}
+
+footer p>a{
+    color:  black;
+}
+
+footer p>a:hover, footer p>a:focus{
+    color: #757575;
+}
